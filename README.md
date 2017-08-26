@@ -11,6 +11,7 @@ Replacement/solution for the broken class *_game_player_equip_*. Weapons are now
   - ze_shroomforest2_b5_e2
   - ze_fapescape_p5  
   - ze_l0v0l_a7_csgo4
+  - ze_fapescape_rote_v1_3
   
   It should work on all maps, otherwise [contact me.](https://github.com/IT-KiLLER/HOW-TO-CONTACT-ME)
   
@@ -19,8 +20,8 @@ Replacement/solution for the broken class *_game_player_equip_*. Weapons are now
   - Stripper:Source
   
 ## Paths:
-  - `csgo\addons\soucemod\plugins\ammo_box_fix.smx`
-  - `csgo\addons\soucemod\scripting\ammo_box_fix.sp` **(optional)**  
+  - `csgo\addons\sourcemod\plugins\ammo_box_fix.smx`
+  - `csgo\addons\sourcemod\scripting\ammo_box_fix.sp` **(optional)**  
   - `csgo\addons\stripper\global_filters.cfg`
   - `csgo\scripts\vscripts\IT-KILLER\ammoboxfixer.nut`
 
