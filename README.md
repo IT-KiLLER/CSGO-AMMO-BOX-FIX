@@ -5,12 +5,14 @@ Replacement/solution for the broken class *_game_player_equip_*. Weapons are now
   - `sm_ammobox_fix_enabled` `1` - *_Enabled or disabled [1/0]._*
   - `sm_ammobox_fix_extrarefill` `1.5` - *_Some maps refil ammo slowly this can be used to smooth it out. Enter in seconds. (0=Disabled, 0.1 to 5.0 secs)._*
   
-## Tested and working on
+## Tested and works on the maps:
   - ze_castlevania_p1_5
   - ze_ffxiv_wanderers_palace_v4_10
   - ze_shroomforest2_b5_e2
   - ze_fapescape_p5  
   - ze_l0v0l_a7_csgo4
+  
+  It should work on all maps, otherwise contact me.
   
 ## Requires
   - Soucemod
