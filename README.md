@@ -12,7 +12,7 @@ Replacement/solution for the broken class *_game_player_equip_*. Weapons are now
   - ze_fapescape_p5  
   - ze_l0v0l_a7_csgo4
   
-  It should work on all maps, otherwise contact me.
+  It should work on all maps, otherwise [contact me.](https://github.com/IT-KiLLER/HOW-TO-CONTACT-ME)
   
 ## Requires
   - Soucemod
