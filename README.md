@@ -1,5 +1,5 @@
 # [CS:GO] AMMO BOX FIX 1.0
-Replacement/solution for the broken class *_game_player_equip_*. Weapons are now being refilled by this plugin as before the [CS:GO update 2017-08-17](http://blog.counter-strike.net/index.php/2017/08/19239/).
+Replacement/solution for the broken class *_game_player_equip_*. Weapons are now being refilled by this plugin as before the [CS:GO update 2017-08-17](http://blog.counter-strike.net/index.php/2017/08/19239/). This problem has also been [reported](https://github.com/ValveSoftware/csgo-osx-linux/issues/1500) to Valve.
 
 ## Cvars
   - `sm_ammobox_fix_enabled` `1` - *_Enabled or disabled [1/0]._*
