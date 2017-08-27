@@ -38,4 +38,4 @@ Thanks to Snowy @ GFL for tests of the plugin.
   - Released!
   
 ## Gameplay 
-![](https://image.ibb.co/gDYM95/ammoboxfix_gameplay.gif)
+![](gameplay.gif)
