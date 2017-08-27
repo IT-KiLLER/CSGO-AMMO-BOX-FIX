@@ -36,3 +36,6 @@ Thanks to Snowy @ GFL for tests of the plugin.
 ## Change log
 - **1.0** - 2017-08-26
   - Released!
+  
+## Gameplay 
+![](https://image.ibb.co/gDYM95/ammoboxfix_gameplay.gif)
