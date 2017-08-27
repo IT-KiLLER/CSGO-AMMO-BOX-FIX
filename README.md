@@ -17,7 +17,7 @@ Replacement/solution for the broken class *_game_player_equip_*. Weapons are now
   
 ## Requires
   - Soucemod
-  - Stripper:Source
+  - [Stripper:Source](https://www.bailopan.net/stripper/) [Lastest: [stripper-1.2.2-git125+](https://www.bailopan.net/stripper/snapshots/1.2/)]
   
 ## Paths:
   - `csgo\addons\sourcemod\plugins\ammo_box_fix.smx`
