@@ -16,8 +16,7 @@ Replacement/solution for the broken class *_game_player_equip_*. Weapons are now
   It should work on all maps, otherwise [contact me.](https://github.com/IT-KiLLER/HOW-TO-CONTACT-ME)
 
 ## Download
-### [Download/Source code (zip)](https://github.com/IT-KiLLER/CSGO-AMMO-BOX-FIX/archive/master.zip)
-
+### [Download (smx)](https://github.com/IT-KiLLER/CSGO-AMMO-BOX-FIX/raw/master/ammo_box_fix.smx)    [Source code (zip)](https://github.com/IT-KiLLER/CSGO-AMMO-BOX-FIX/archive/master.zip)
 Please feel free to contact me if you have any questions. [contact information here.](https://github.com/IT-KiLLER/HOW-TO-CONTACT-ME)
 ## Creator and credit
 #### Created by me [IT-KiLLER](https://github.com/IT-KiLLER)
