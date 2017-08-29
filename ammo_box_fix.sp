@@ -16,7 +16,6 @@
 #include <sourcemod>
 #include <sdktools>
 #include <sdkhooks>
-
 #pragma semicolon 1
 #pragma newdecls required
 
@@ -31,7 +30,7 @@ public Plugin myinfo =
 	name = "[CS:GO] AMMO BOX FIX.", 
 	author = "IT-KiLLER",
 	description = "Replacement for the broken class game_player_equip.",
-	version = "1.1",
+	version = "1.2",
 	url = "https://github.com/IT-KiLLER"
 };
 
@@ -42,19 +41,14 @@ public void OnPluginStart()
 	clip2Offset = FindSendPropInfo("CBaseCombatWeapon", "m_iClip2");
 	sm_ammobox_fix_enabled  = CreateConVar("sm_ammobox_fix_enabled", "1", "Enabled or Disabled", _, true, 0.0, true, 1.0);
 	sm_ammobox_fix_extrarefill  = CreateConVar("sm_ammobox_fix_extrarefill", "1.5", "Some maps refil ammo slowly this can be used to smooth it out. Enter in seconds. (0=Disabled, 0.1 to 5.0 secs)", _, true, 0.0, true, 5.0);
-	HookEvent("round_start", Event_RoundStart, EventHookMode_PostNoCopy);
 	if(arrayWeapon == INVALID_HANDLE) {
 		arrayWeapon = InitWeaponTrie();
 	}
 }
 
-public void Event_RoundStart(Event event, const char[] name, bool dontbroadcast)
-{
-	if(!sm_ammobox_fix_enabled.BoolValue) return;
-	int entity = INVALID_ENT_REFERENCE;
-	while ((entity = FindEntityByClassname(entity, "game_player_equip")) != INVALID_ENT_REFERENCE) {
+public void OnEntityCreated(int entity, const char[] classname) {
+	if(classname[0] == 'g' ? StrEqual(classname, "game_player_equip") : false)
 		SDKHook(entity, SDKHook_UsePost, OnUsePost);
-	}
 }
 
 public void OnUsePost(int entity, int client)
