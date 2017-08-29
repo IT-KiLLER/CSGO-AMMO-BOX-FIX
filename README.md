@@ -23,6 +23,8 @@ Please feel free to contact me if you have any questions. [contact information h
 
 Thanks to Snowy @ GFL for tests of the plugin.
 ## Change log
+- **1.2** - 2017-08-29
+  - It will work again on all maps. Very efficient execution as always.
 - **1.1** - 2017-08-28
   - Simplified installation.
 - **1.0** - 2017-08-26
