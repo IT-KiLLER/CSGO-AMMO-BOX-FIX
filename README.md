@@ -13,6 +13,7 @@ Replacement/solution for the broken class *_game_player_equip_*. Weapons are now
   - ze_l0v0l_a7_csgo4
   - ze_fapescape_rote_v1_3
   - ze_predator_ultimate_p7
+  - ze_tyranny_v5_go3
   
   It should work on all maps, otherwise [contact me.](https://github.com/IT-KiLLER/HOW-TO-CONTACT-ME)
 
